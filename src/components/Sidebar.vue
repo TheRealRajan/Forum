@@ -24,7 +24,7 @@ export default {
   height: 100vh;
   width: 4.5vw;
   background: #fff;
-  border-right: 1px solid $primaryBlue;
+  box-shadow: 1px 0px 15px $cardShadow;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +42,7 @@ export default {
   width: 1.8em;
   max-height: 1.8em;
   margin: 1.2em 0;
+  cursor: pointer;
 
   &:hover,
   &:focus {
