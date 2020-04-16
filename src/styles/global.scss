@@ -3,6 +3,10 @@
 //   src: url(~@/fonts/CeraPro-Regular.ttf) format("font-type");
 // }
 
+* {
+  box-sizing: border-box;
+}
+
 // Colors
 $primaryBlue: #3953dc;
 $success: #45b81f;

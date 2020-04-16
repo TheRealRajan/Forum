@@ -47,8 +47,4 @@ body {
   font-family: "Manrope";
   margin: 0;
 }
-.test {
-  background: $warning;
-  font-size: 3rem;
-}
 </style>
