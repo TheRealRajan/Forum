@@ -40,13 +40,13 @@ export default {
 
 <style lang="scss" scoped>
 .topbar {
-  float: right;
-  width: 95.5vw;
+  float: left;
+  width: 76vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 2em;
-  // margin: 1.25em;
+  margin-left: 4.5vw;
 }
 
 .title-text {
@@ -69,6 +69,7 @@ export default {
 }
 
 .search-bar {
+  font-size: 1em;
   width: 18em;
   max-width: 20em;
   border-radius: 5px;
@@ -101,6 +102,8 @@ export default {
 }
 .sort-by {
   // width: 7.5em;
+  font-size: 0.9em;
+  line-height: 1;
   padding: 0.5em;
   background: #fff;
   display: flex;

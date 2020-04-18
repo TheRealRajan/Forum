@@ -4,24 +4,30 @@
       <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
       <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
 
-      <TopBar></TopBar>
       <SideBar></SideBar>
+      <div class="home-container">
+        <TopBar></TopBar>
+        <ProfileBar></ProfileBar>
+        <FeedSection></FeedSection>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
 import SideBar from "@/components/SideBar.vue";
 import TopBar from "@/components/TopBar.vue";
+import ProfileBar from "@/components/ProfileBar.vue";
+import FeedSection from "@/components/FeedSection.vue";
 
 export default {
   name: "Home",
   components: {
     SideBar,
-    TopBar
-    // HelloWorld
+    TopBar,
+    ProfileBar,
+    FeedSection
   }
 };
 </script>

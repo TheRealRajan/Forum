@@ -1,4 +1,4 @@
--<template>
+<template>
   <div>
     <div class="sidebar">
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
@@ -80,7 +80,7 @@ export default {
   flex-direction: column;
   align-items: center;
   height: 80%;
-  margin: 26vh 0;
+  margin: 23vh 0;
 }
 .icon {
   width: 1.8em;
