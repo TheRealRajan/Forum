@@ -59,6 +59,7 @@ export default {
 
   .your {
     font-weight: 300;
+    margin-right: 0.25em;
   }
   .feed {
     font-weight: 600;

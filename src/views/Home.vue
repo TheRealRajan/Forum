@@ -36,7 +36,7 @@ export default {
 .home {
   background-color: $almostWhite;
   box-sizing: border-box;
-  height: 100vh;
+  // height: 100vh;
   // width: 95.5vw;
   // margin: 2em;
 }

@@ -35,7 +35,7 @@
                 d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 7.1 5.8 12 12 12 2.4 0 4.9-.7 7.1-2.4L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zm16 352c0 8.8-7.2 16-16 16H288l-12.8 9.6L208 428v-60H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16h384c8.8 0 16 7.2 16 16v288z"
               />
             </svg>
-            <span>100 +</span>
+            <span class="comment-num">100 +</span>
           </div>
         </div>
       </div>
@@ -65,13 +65,19 @@ export default {
   align-items: center;
   padding: 0 1em 1em 1em;
 
-  button,
-  span {
-    font-size: 1.1em;
-    line-height: 1;
-    padding-bottom: 0.5em;
+  button {
     border: none;
     background: none;
+    .svg-img {
+      width: 0.8em;
+      fill: #aaaaaa;
+    }
+  }
+
+  span {
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 0.5em 0;
   }
 }
 
@@ -123,6 +129,10 @@ export default {
   .svg-img {
     width: 0.8em;
     fill: #aaaaaa;
+  }
+
+  .comment-num {
+    margin-left: 0.25em;
   }
 }
 
