@@ -8,7 +8,7 @@
       <div class="home-container">
         <TopBar></TopBar>
         <ProfileBar></ProfileBar>
-        <PostExtended></PostExtended>
+
         <FeedSection></FeedSection>
       </div>
     </div>
@@ -21,7 +21,7 @@ import SideBar from "@/components/SideBar.vue";
 import TopBar from "@/components/TopBar.vue";
 import ProfileBar from "@/components/ProfileBar.vue";
 import FeedSection from "@/components/FeedSection.vue";
-import PostExtended from "@/components/PostExtended.vue";
+// import PostExtended from "@/components/PostExtended.vue";
 
 export default {
   name: "Home",
@@ -29,8 +29,8 @@ export default {
     SideBar,
     TopBar,
     ProfileBar,
-    FeedSection,
-    PostExtended
+    FeedSection
+    // PostExtended
   }
 };
 </script>

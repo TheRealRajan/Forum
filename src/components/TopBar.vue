@@ -6,7 +6,7 @@
         <span class="feed">Feed</span>
       </div>
       <div class="search-bar">
-        <input type="search" placeholder="Search For Topics..." />
+        <input type="search" placeholder="Search for posts..." />
         <div class="search-icon">
           <svg
             style="width:1em; height:1em"

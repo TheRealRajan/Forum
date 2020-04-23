@@ -4,7 +4,7 @@
       <div class="parent">
         <div class="user">
           <img style src="@/assets/profile-img.png" alt="x" />
-          <div>Prakash Raj Badal</div>
+          <div>Prakash Taj Badal</div>
         </div>
         <img class="cross" src="@/assets/cross.svg" alt="x" />
       </div>

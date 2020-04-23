@@ -12,15 +12,19 @@
         <Post></Post>
       </div>
     </div>
+    <PostExtended></PostExtended>
   </div>
 </template>
 
 <script>
 import Post from "@/components/Post.vue";
+import PostExtended from "@/components/PostExtended.vue";
+
 export default {
   name: "FeedSection",
   components: {
-    Post
+    Post,
+    PostExtended
   }
 };
 </script>
