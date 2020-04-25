@@ -12,6 +12,7 @@
         <Post></Post>
       </div>
     </div>
+
     <PostExtended></PostExtended>
   </div>
 </template>
@@ -25,6 +26,7 @@ export default {
   components: {
     Post,
     PostExtended
+    // ForgotPassword
   }
 };
 </script>

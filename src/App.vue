@@ -5,17 +5,22 @@
       <router-link to="/about">About</router-link>
     </div>-->
     <!-- <router-view /> -->
+    <ResetPassword></ResetPassword>
+    <ForgotPassword></ForgotPassword>
     <Home></Home>
-    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quaerat.</p> -->
   </div>
 </template>
 
 <script>
 import Home from "@/views/Home";
+import ForgotPassword from "@/views/ForgotPassword.vue";
+import ResetPassword from "@/views/ResetPassword.vue";
 
 export default {
   components: {
-    Home
+    Home,
+    ForgotPassword,
+    ResetPassword
   }
 };
 </script>
