@@ -13,7 +13,7 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from "@/components/HelloWorld.vue";
-import SideBar from "@/components/SideBar.vue";
+import SideBar from "@/components/Sidebar.vue";
 import TopBar from "@/components/TopBar.vue";
 
 export default {
